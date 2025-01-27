@@ -3,6 +3,8 @@ Primary author: Siddhant Borkar (https://github.com/SiddhantBorkar04)
 
 This tutorial will guide you through setting up a DevContainer and creating a basic Rust program. With DevContainers, you don’t need Rust installed on your computer since everything runs in an isolated environment.
 
+**(Include Prerequisites)**
+
 ## Part 1: Initialization and Setup
 
 ### Step 1: Create a Local Directory and Initialize Git
@@ -26,6 +28,7 @@ echo "Link to tutorial: tutorial link" >> README.md
 git add README.md
 git commit -m "Initial commit with README"
 ```
+**Change tutorial link to real tutorial link**
 
 ### Step 2: Create a Remote Repository on GitHub
 (1) Log in to your GitHub account and create a new repository:
