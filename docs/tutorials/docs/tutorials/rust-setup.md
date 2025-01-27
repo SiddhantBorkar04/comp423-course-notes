@@ -3,7 +3,17 @@ Primary author: Siddhant Borkar (https://github.com/SiddhantBorkar04)
 
 This tutorial will guide you through setting up a DevContainer and creating a basic Rust program. With DevContainers, you don’t need Rust installed on your computer since everything runs in an isolated environment.
 
-**(Include Prerequisites)**
+### Before we dive in, make sure you have:
+
+(1) A GitHub account: If you don’t have one yet, sign up at GitHub.
+
+(2) Git installed: Install Git if you don’t already have it.
+
+(3) Visual Studio Code (VS Code): Download and install it from here.
+
+(4) Docker installed: Required to run the dev container. Get Docker here.
+
+(5) Command-line basics: Your COMP211 command-line knowledge will serve you well here. If in doubt, review the Learn a CLI text!
 
 ## Part 1: Initialization and Setup
 
@@ -24,11 +34,10 @@ git init
 (4) Create a README.md file with a link to this tutorial:
 ```
 echo "# Rust Tutorial" > README.md
-echo "Link to tutorial: tutorial link" >> README.md
+echo "Link to tutorial: https://SiddhantBorkar04.github.io/comp423-course-notes/tutorials/docs/tutorials/rust-setup/" >> README.md
 git add README.md
 git commit -m "Initial commit with README"
 ```
-**Change tutorial link to real tutorial link**
 
 ### Step 2: Create a Remote Repository on GitHub
 (1) Log in to your GitHub account and create a new repository:
@@ -121,7 +130,10 @@ cargo run
 (2) This command compiles the source code into a binary and immediately runs it. You should see Hello COMP423 printed in the terminal.
 
 #### Using cargo build (Build Only)
-The cargo build command compiles the program without executing it, which is useful when preparing a binary for deployment. This is similar to the gcc command where you compile the code into an a.out file and run it manually.
+The cargo build command compiles the program without executing it, which is useful when preparing a binary for deployment. 
+
+!!! Note
+    This is similar to the gcc command where you compile the code into an a.out file and run it manually.
 
 (1) Compile your program into a standalone binary with:
 
